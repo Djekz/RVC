@@ -20,9 +20,9 @@ def download_audio(url, audio_name):
     return  
 
 
-with gr.Blocks(title="🔊",theme=gr.themes.Base(primary_hue="rose",neutral_hue="zinc")) as app:
-    with gr.Row():
-        gr.HTML("<img  src='file/a.png' alt='image'>")
+with gr.Blocks(title="🔊",theme=gr.themes.Base()) as app:
+    #with gr.Row():
+        #gr.HTML("<img  src='file/a.png' alt='image'>")
     with gr.Tabs():
         with gr.TabItem("Inference"):
             with gr.Row():
