@@ -11,7 +11,7 @@ Cython
 pydub>=0.25.1
 soundfile>=0.12.1
 ffmpeg-python>=0.2.0
-tensorboardX
+yt_dlp
 Jinja2>=3.1.2
 json5
 Markdown
@@ -21,7 +21,8 @@ praat-parselmouth>=0.4.2
 Pillow>=9.1.1
 resampy>=0.4.2
 scikit-learn
-tensorboard
+gdown
+mega.py
 tqdm>=4.63.1
 tornado>=6.1
 Werkzeug>=2.2.3
