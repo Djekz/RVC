@@ -806,7 +806,7 @@ def change_f0_method(f0method8):
     return {"visible": visible, "__type__": "update"}
 
 
-with gr.Blocks(title="RVC WebUI") as app:
+with gr.Blocks(theme=gr.themes.Base(), title="RVC WebUI") as app:
     gr.Markdown("## RVC WebUI")
     gr.Markdown(
         value=i18n(
